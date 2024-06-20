@@ -1,0 +1,87 @@
+   0 ls 
+   1 ls /
+   2 ls -l
+   3 ls -l /
+   4 ls -la /
+   5 ls -lat /
+   6 ls -lath /
+   7 ls --help
+   8 pwd
+   9 cd /home
+  10 pwd
+  11 cd 
+  12 cd /usr/include/
+  13 cd 
+  14 ls -al /usr/include/
+  15 cd /home/
+  16 mkdir user1
+  17 ls -al
+  18 mkdir user2/task2
+  19 mkdir -p user2/task2
+  20 ls -al
+  21 ls user2/
+  22 tree /home
+  23 touch user2/task2/file2
+  24 ls -al user2/task2/
+  25 touch user1/file1 user1/file2 user1/file3
+  26 ls -l user1
+  27 cp user2/task2/file2 /tmp/newfile
+  28 ls -l /tmp
+  29 ls -alh /root
+  30 ls -l user2/task2/
+  31 cp user2/task2/file2 /tmp/
+  32 ls -l /tmp
+  33 ls -la /tmp
+  34 ls -al /tmp
+  35 ls -hal /tmp
+  36 ls -l user1/
+  37 mv user1/file2 /opt
+  38 ls -l user1/
+  39 ls -l /opt/
+  40 mv user1/file3 user1/file33
+  41 ls -l user1
+  42 rm user1/file33
+  43 ls -l user1
+  44 rm user2
+  45 rm -rf user2
+  46 ls -al
+  47 whoami 
+  48 clear 
+  49 date
+  50 date --help
+  51 history
+  52 cal
+  53 cal -y 2024
+  54 cal -y 2023
+  55 cal -y 2028
+  56 bc
+  57 curl wttr.in/Berlin
+  58 curl rate.sx
+  59 ls -al /root
+  60 touch user1/file1.txt
+  61 ls -al user1/
+  62 touch user1/file11
+  63 ls /usr/include/
+  64 ls /usr/include/libdrm/
+  65 bc
+  66 cd /usr/include/libdrm/
+  67 cd ..
+  68 cd /
+  69 cd 
+  70 cd /home/
+  71 ls -al
+  72 ls -l user1/
+  73 cp -r user1/ /tmp
+  74 ls -l /tmp/
+  75 ls -l /tmp/user1/
+  76 cp ---help
+  77 mv /tmp/user1/ /tmp/user11
+  78 ls /tmp/
+  79 history
+  80 cd ..
+  81 cd 
+  82 history
+  83 mv /tmp/user11 /tmp/user12/
+  84 ls /tmp/user11
+  85 history
+  86 history > history-20240501.txt
